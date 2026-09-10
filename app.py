@@ -37,7 +37,7 @@ with st.expander('Analizar texto'):
         if x > 0.0 and x <= 1.0:
             st.write('Es un sentimiento Positivo 😊')
             # Carga tu animación Lottie para cuando sea feliz
-            with open('feliz.json') as source:
+            with open('haha.json') as source:
                 animation = json.load(source)
             st.lottie(animation, width=350)
             
