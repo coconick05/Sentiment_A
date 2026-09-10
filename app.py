@@ -44,7 +44,7 @@ with st.expander('Analizar texto'):
         elif x >= -1 and x < 0:
             st.write('Es un sentimiento Negativo 😔')
             # Carga tu animación Lottie para cuando sea triste
-            with open('triste.json') as source:
+            with open('sad.json') as source:
                 animation = json.load(source)
             st.lottie(animation, width=350)
             
